@@ -1,0 +1,306 @@
+@media (max-width: 1200px) {
+  .cours__item {
+    min-height: 472px;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner {
+    padding-top: 117px;
+    padding-bottom: 148px;
+  }
+
+  .banner__content {
+    padding-top: 12px;
+  }
+
+  .banner__title {
+    margin-bottom: 16px;
+    font-size: 50px;
+  }
+
+  .advan {
+    padding-bottom: 74px;
+  }
+
+  .advan__item {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .advan__item svg {
+    margin-bottom: 13px;
+  }
+
+  .advan__subtext {
+    width: fit-content;
+  }
+
+  .teach {
+    padding-bottom: 29px;
+  }
+
+  .teach__img {
+    margin-bottom: 25px;
+    border-radius: 23px 25px 0px 0px;
+  }
+
+  .teach__item:nth-child(-n + 2) {
+    margin-bottom: 22px;
+  }
+
+  .cours__subtitle {
+    margin-bottom: 8px;
+  }
+
+  .cours__text {
+    margin-bottom: 49px;
+  }
+
+  .cours__link {
+    position: absolute;
+    padding: 20px 55px;
+    bottom: 60px;
+  }
+
+  .cours__item {
+    min-height: 554px;
+  }
+
+  .footer__top {
+    padding-top: 29px;
+    padding-bottom: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__content {
+    flex-direction: column;
+  }
+
+  .header {
+    padding-bottom: 30px;
+  }
+
+  .header__logo {
+    margin-bottom: 27px;
+    text-align: center;
+  }
+
+  .nav {
+    margin: 0 auto;
+  }
+
+  .banner {
+    padding-top: 66px;
+    padding-bottom: 159px;
+  }
+
+  .banner__img {
+    display: none;
+  }
+
+  .advan {
+    padding-top: 81px;
+    padding-bottom: 53px;
+  }
+
+  .advan__content {
+    margin-top: -1px;
+  }
+
+  .teach {
+    padding-top: 74px;
+    padding-bottom: 51px;
+  }
+
+  .teach__img {
+    margin-bottom: 27px;
+  }
+
+  .cours {
+    padding-bottom: 46px;
+  }
+
+  .cours__content {
+    padding: 26px 21px 48px 31px;
+  }
+
+  .cours__item {
+    min-height: 653px;
+  }
+
+  .cours__subtitle {
+    line-height: 23px;
+  }
+
+  .cours__link {
+    padding: 22px 47px;
+  }
+}
+
+@media (max-width: 575px) {
+  .header {
+    padding-bottom: 4px;
+  }
+
+  .header__content {
+    flex-direction: row;
+  }
+
+  .header__logo svg {
+    width: 72px;
+    height: 16px;
+  }
+
+  .header__content.open .nav {
+    transform: translateX(100%);
+  }
+
+  .nav {
+    display: block;
+    max-width: 320px;
+    margin: 0;
+    padding: 76px 173px 105px 15px;
+    position: absolute;
+    left: -320px;
+    top: -30px;
+    background-color: #2F2C45;
+    z-index: 1000;
+    transition: transform .3s ease-in-out;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-bottom: 56px;
+    margin-right: 0;
+  }
+
+  .nav__list {
+    display: block;
+  }
+
+  .burger {
+    position: relative;
+    display: block;
+    width: 30px;
+    top: 9px;
+    height: 24px;
+    margin-left: auto;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    z-index: 1001;
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+  }
+
+  .burger__line {
+    position: absolute;
+    left: 5px;
+    width: 21px;
+    height: 2px;
+    border-radius: inherit;
+    background-color: currentColor;
+    transition: all .3s ease-in-out;
+  }
+
+  .header__content.open .burger__line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .header__content.open .burger__line:nth-child(1) {
+    transform: translateY(0) rotate(-45deg);
+  }
+
+  .header__content.open .burger__line:nth-child(3) {
+    transform: translateY(0) rotate(45deg);
+  }
+
+  .burger__line:nth-child(1) {
+    transform: translateY(-10px);
+  }
+
+  .burger__line:nth-child(3) {
+    transform: translateY(10px);
+  }
+
+  .banner {
+    padding-top: 38px;
+    padding-bottom: 70px;
+  }
+
+  .banner__title {
+    margin-bottom: 4px;
+    font-size: 30px;
+  }
+
+  .banner__text {
+    margin-bottom: 66px;
+    line-height: 130%;
+    font-size: 16px;
+  }
+
+  .banner__link {
+    padding: 20px 53px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .advan {
+    padding-top: 49px;
+    padding-bottom: 14px;
+  }
+
+  .advan__br {
+    display: none;
+  }
+
+  .advan__title {
+    margin-bottom: 2px;
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .advan__img {
+    display: none;
+  }
+
+  .advan__item {
+    flex-direction: row;
+    margin-bottom: 19px;
+  }
+
+  .teach {
+    padding-top: 45px;
+    padding-bottom: 25px;
+  }
+
+  .teach__title {
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .teach__img {
+    width: 100%;
+    border-radius: 53px 53px 0 0;
+  }
+
+  .cours__title {
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .cours {
+    padding-top: 39px;
+    padding-bottom: 16px;
+  }
+
+  .cours__link {
+    padding: 22px 56px;
+  }
+
+  .cours__img {
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,289 @@
+:root {
+  --main-color: #3F2AFF;
+  --text-color: #666666;
+  --title-color: #2E2B44;
+}
+
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-reset {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.link {
+  padding: 24px 75px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+  background-color: var(--main-color);
+  text-align: center;
+}
+
+.burger {
+  display: none;
+}
+
+
+
+/* //////header////// */
+.header {
+  padding-top: 29px;
+  padding-bottom: 26px;
+  background-color: var(--main-color);
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav__link {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 56px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: var(--title-color);
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text-color);
+}
+
+/* //////banner////// */
+
+.banner {
+  padding-top: 14px;
+  padding-bottom: 10px;
+  background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+}
+
+.banner__content {
+  padding-top: 117px;
+}
+
+.banner__title {
+  margin-bottom: 27px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  color: #fff;
+}
+
+.banner__text {
+  margin-bottom: 86px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.padding-reset {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* //////advan////// */
+.advan {
+  padding-top: 102px;
+  padding-bottom: 78px;
+}
+
+.advan__content {
+  margin-top: -23px;
+  margin-bottom: 23px;
+  padding-left: 0px;
+}
+
+.advan__title {
+  margin-bottom: 17px;
+}
+
+.advan__subtext {
+  width: 244px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.advan__content-bottom {
+  padding-top: 25px;
+}
+
+.advan__item svg {
+  min-width: 80px;
+  min-height: 80px;
+  margin-right: 30px;
+}
+
+.advan__item {
+  align-items: center;
+}
+
+.advan__item:not(:last-child) {
+  margin-right: 25px;
+}
+
+/* //////teach////// */
+
+.teach {
+  padding-top: 76px;
+  padding-bottom: 72px;
+  background-color: #212133;
+}
+
+.teach__title {
+  margin-bottom: 24px;
+  color: #fff;
+}
+
+.teach__name {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.teach__text {
+  color: #85859B;
+}
+
+.teach__img {
+  width: 100%;
+  margin-bottom: 28px;
+  border-radius: 20px 20px 0px 0px;
+  ;
+}
+
+.teach__item:not(:last-child) {
+  margin-right: 28px;
+}
+
+
+/* //////cours////// */
+.cours {
+  padding-top: 73px;
+  padding-bottom: 50px;
+}
+
+.cours__title {
+  color: #212133;
+  margin-bottom: 25px;
+}
+
+.cours__subtitle {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #212133;
+}
+
+.cours__item {
+  margin-bottom: 31px;
+  background-color: #EDF0F9;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.cours__content {
+  padding: 26px 30px 48px 31px;
+}
+
+.cours__text {
+  margin-bottom: 68px;
+}
+
+.margin-hack {
+  margin-bottom: 91px;
+}
+
+.cours__link {
+  padding: 20px 59px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+.cours__img {
+  width: 100%;
+}
+
+/* //////footer////// */
+.footer__top {
+  padding: 27px 0;
+  background-color: var(--title-color);
+}
+
+.footer__list {
+  justify-content: center;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.footer__text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: var(--title-color);
+}
+
+.footer__bottom-content {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.footer__text span {
+  color: var(--main-color);
+}
